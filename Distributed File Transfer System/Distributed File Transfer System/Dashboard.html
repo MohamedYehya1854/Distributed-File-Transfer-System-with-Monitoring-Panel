@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Server Monitor</title>
+    <style>
+        :root {
+            --online-color: #4CAF50;
+            --offline-color: #f44336;
+            --download-color: #2196F3;
+            --upload-color: #4CAF50;
+            --background: #f5f5f5;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background);
+        }
+
+        .dashboard {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .online { background-color: var(--online-color); }
+        .offline { background-color: var(--offline-color); }
+
+        .progress-bar {
+            height: 15px;
+            background-color: #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background-color: var(--online-color);
+            transition: width 0.3s ease;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+
+        .direction-icon {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            margin-right: 8px;
+        }
+
+        .download {
+            border-top: 10px solid var(--download-color);
+        }
+
+        .upload {
+            border-bottom: 10px solid var(--upload-color);
+        }
+
+        .client-status {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .active { background-color: #4CAF50; }
+        .idle { background-color: #ff9800; }
+        .logs {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .metric-value {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .metric-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>📁 File Transfer Server Dashboard</h1>
+        
+        <div class="cards-grid">
+            <!-- Active Transfers Card -->
+            <div class="card">
+                <h2>Active Transfers ({{ACTIVE_TRANSFER_COUNT}})</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>File</th>
+                            <th>User</th>
+                            <th>Progress</th>
+                            <th>Speed</th>
+                            <th>Direction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ACTIVE_TRANSFERS}}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Active Clients Card -->
+            <div class="card">
+                <h2>Active Clients ({{ACTIVE_CLIENT_COUNT}})</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Client ID</th>
+                        <th>Username</th>
+                        <th>Connected Since</th>
+                        <th>Data Transferred</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ACTIVE_CLIENTS}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Server Status & Logs Cards -->
+        <div class="cards-grid" style="margin-top: 20px;">
+            <div class="card">
+                <h2>Server Status</h2>
+                <div class="status-indicator">
+                    <div class="status-dot online"></div>
+                    <span class="metric-value">Online</span>
+                </div>
+                <div class="metric-label">Uptime: {{UPTIME}}</div>
+                <div class="metric-label">Files: {{FILE_COUNT}}</div>
+            </div>
+
+            <div class="card">
+                <h2>Recent Activity</h2>
+                <div class="logs">
+                    {{ACTIVITY_LOGS}}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
