@@ -1,0 +1,15 @@
+2025-05-14 13:30:56 - Authentication error for 127.0.0.1:34496: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+2025-05-14 13:30:56 - Error handling client 127.0.0.1:34496: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host..
+2025-05-14 13:30:56 - Client 127.0.0.1:34496 disconnected
+2025-05-14 13:37:05 - Client 192.168.203.1:34840 uploaded DevOps.pdf
+2025-05-14 13:37:05 - Client 192.168.203.1:34840 disconnected
+2025-05-14 13:37:44 - Client 192.168.203.1:34920 downloaded DevOps.pdf
+2025-05-14 13:37:44 - Client 192.168.203.1:34920 disconnected
+2025-05-14 13:41:59 - Client 192.168.203.1:35036 downloaded FTP.txt
+2025-05-14 13:41:59 - Client 192.168.203.1:35036 disconnected
+2025-05-14 13:43:09 - Client 192.168.203.1:35059 uploaded Ramadan Intro.mp4
+2025-05-14 13:43:09 - Client 192.168.203.1:35059 disconnected
+2025-05-14 13:44:26 - Client 192.168.203.1:35071 uploaded MSC MU Event - Made with Clipchamp.mp4
+2025-05-14 13:44:26 - Client 192.168.203.1:35071 disconnected
+2025-05-14 13:46:57 - Client 192.168.203.1:35322 uploaded The Fast and the Furious 2001 720p.mp4
+2025-05-14 13:46:57 - Client 192.168.203.1:35322 disconnected

@@ -1,0 +1,14 @@
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\bin\Debug\net8.0\Server Application.exe
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\bin\Debug\net8.0\Server Application.deps.json
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\bin\Debug\net8.0\Server Application.runtimeconfig.json
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\bin\Debug\net8.0\Server Application.dll
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\bin\Debug\net8.0\Server Application.pdb
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.AssemblyInfoInputs.cache
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.AssemblyInfo.cs
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.csproj.CoreCompileInputs.cache
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.dll
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\refint\Server Application.dll
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.pdb
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\Server Application.genruntimeconfig.cache
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Distributed File Transfer System\obj\Debug\net8.0\ref\Server Application.dll

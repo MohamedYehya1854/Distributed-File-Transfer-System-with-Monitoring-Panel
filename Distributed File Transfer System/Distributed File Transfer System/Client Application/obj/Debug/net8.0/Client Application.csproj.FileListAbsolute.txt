@@ -1,0 +1,28 @@
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.exe
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.deps.json
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.runtimeconfig.json
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.dll
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.pdb
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.AssemblyInfoInputs.cache
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.AssemblyInfo.cs
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.csproj.CoreCompileInputs.cache
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.dll
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\refint\Client Application.dll
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.pdb
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.genruntimeconfig.cache
+C:\Users\The NetKnight\source\repos\Distributed File Transfer System\Client Application\obj\Debug\net8.0\ref\Client Application.dll
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.exe
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.deps.json
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.runtimeconfig.json
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.dll
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\bin\Debug\net8.0\Client Application.pdb
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.AssemblyInfoInputs.cache
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.AssemblyInfo.cs
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.csproj.CoreCompileInputs.cache
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.dll
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\refint\Client Application.dll
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.pdb
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\Client Application.genruntimeconfig.cache
+E:\Project\Distributed File Transfer System\Distributed File Transfer System\Client Application\obj\Debug\net8.0\ref\Client Application.dll

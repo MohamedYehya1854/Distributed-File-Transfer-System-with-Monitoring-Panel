@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server Application", "Distributed File Transfer System\Server Application.csproj", "{6A928280-90F0-4741-B210-A23B1872982A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client Application", "Client Application\Client Application.csproj", "{31F99CCE-9B62-4B3F-AE95-95389E341E9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A928280-90F0-4741-B210-A23B1872982A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A928280-90F0-4741-B210-A23B1872982A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A928280-90F0-4741-B210-A23B1872982A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A928280-90F0-4741-B210-A23B1872982A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F99CCE-9B62-4B3F-AE95-95389E341E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F99CCE-9B62-4B3F-AE95-95389E341E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F99CCE-9B62-4B3F-AE95-95389E341E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F99CCE-9B62-4B3F-AE95-95389E341E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98028A7B-D4F3-4702-87ED-E558503F3F61}
+	EndGlobalSection
+EndGlobal
